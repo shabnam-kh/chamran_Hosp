@@ -1,7 +1,736 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2337830f-b1f2-48a4-a87b-36ecf174ca5f" name="Default" comment="" />
+    <list default="true" id="2337830f-b1f2-48a4-a87b-36ecf174ca5f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/AuthenticationToken.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CallbackContext.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Config.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ConfigXmlParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$4$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaArgs.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaBridge.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaClientCertRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$Result.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaHttpAuthHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterface.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterfaceImpl$ActivityResultHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterfaceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaPreferences.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine$Client.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine$EngineView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ExposedJsApi.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaClientCertRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaCookieManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaHttpAuthHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/LOG.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$NoOpBridgeMode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginEntry.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginResult$Status.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemCookieManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemExposedJsApi.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Whitelist$URLPattern.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Whitelist.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/incremental/aidl/debug/dependency.store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-hdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-ldpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-mdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-xhdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/img/imageedit_3_7474622037.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/img/imageedit_3_7474622037.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-land-hdpi/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-land-ldpi/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-land-mdpi/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-land-xhdpi/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-port-hdpi/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-port-ldpi/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-port-mdpi/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/drawable-port-xhdpi/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/.documentup.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/grunt/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/grunt/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/bundles/debug/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/AuthenticationToken.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/generated/source/buildConfig/debug/org/apache/cordova/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/cordova-plugin-whitelist/src/ios/CDVNavigationWhitelistPlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/cordova-plugin-whitelist/src/ios/CDVNavigationWhitelistPlugin.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/q/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/cordova-plugin-whitelist/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CallbackContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/Config.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/ConfigXmlParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaArgs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaBridge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaClientCertRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaDialogsHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaHttpAuthHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterfaceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPreferences.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaResourceApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/CoreAndroid.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/data/Data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/data/Data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/ExposedJsApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaClientCertRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaCookieManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaHttpAuthHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/nopt/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/q/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/which/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/cordova-plugin-whitelist/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/LOG.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/tmp/packageDebugJar/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/src/com/example/hello/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/cordova-plugin-whitelist/NOTICE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/NativeToJsMessageQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/PluginEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/PluginManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/PluginResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/hooks/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/q/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/which/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/cordova-plugin-whitelist/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/cordova-plugin-whitelist/RELEASENOTES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemCookieManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemExposedJsApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebChromeClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/src/org/apache/cordova/Whitelist.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/src/org/apache/cordova/whitelist/WhitelistPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/cordova-plugin-whitelist/src/android/WhitelistPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/_where-is-www.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/abbrev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/data/accepts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/data/accepts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/event/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/event/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/android.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/android_sdk_version.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/android_sdk_version" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/cordova-js-src/plugin/android/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/platform_www/cordova-js-src/plugin/android/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/appinfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/grunt/bs-commonjs-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/grunt/bs-commonjs-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/grunt/bs-raw-files-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/grunt/bs-raw-files-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/build.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/cat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/cd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/check_reqs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/check_reqs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/chmod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/clean.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/clean" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/q/benchmark/compare-with-callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/xml/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/grunt/configBridge.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/grunt/configBridge.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/cordova.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/platform_www/cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/cp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/data/var/data_priv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/data/var/data_priv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/data/var/data_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/data/var/data_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css/defaultDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css/defaultDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/defaults.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/device.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/dirs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/echo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/emulator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/cordova-js-src/exec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/exec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/exec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/platform_www/cordova-js-src/exec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/fetch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/scripts/generate-docs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/grep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/install-device.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/install-device" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/install-emulator.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/install-emulator" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css/var/isHidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css/var/isHidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/list-devices.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/list-devices" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/list-emulator-images.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/list-emulator-images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/list-started-emulators.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/list-started-emulators" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/log.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/ls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/make.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/debug/merger.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/mkdir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/mv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/cordova-js-src/android/nativeapiprovider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/platform_www/cordova-js-src/android/nativeapiprovider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/nopt/lib/nopt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/dist/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/dist/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/nopt/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/q/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/which/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/cordova-plugin-whitelist/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/ajax/parseJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/ajax/parseJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/cordova-js-src/platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/platform_www/cordova-js-src/platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/platforms.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/plugin-build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/cordova-plugin-whitelist/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/popd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/CordovaLib/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/cordova-js-src/android/promptbasednativeapi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/platform_www/cordova-js-src/android/promptbasednativeapi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/pushd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/pwd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/q/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/q/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/reset-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/reset-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/rm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css/var/rmargin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css/var/rmargin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/rnotwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/rnotwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/scripts/run-tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/run.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/run.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/run" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/grunt/sauce_browsers.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/grunt/sauce_browsers.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/q/benchmark/scenarios.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/sed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/settings.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/shell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/bin/shjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/spawn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/start-emulator.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/lib/start-emulator" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/strundefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/strundefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/css/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/css/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/tempdir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/to.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/toEnd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/js/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/js/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/version.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/version" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/bootstrap/less/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/bootstrap/less/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/shelljs/src/which.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/which/which.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/cordova/node_modules/which/bin/which" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/plugins/cordova-plugin-whitelist/whitelist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/plugins/cordova-plugin-whitelist/whitelist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/platforms/android/assets/www/bower_components/jquery/src/ajax/xhr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicApp/www/bower_components/jquery/src/ajax/xhr.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/3D Liquid filter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/3D Ribbon blender.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/3D Single port pitot tube or pitot-venturi tube.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/Untitled1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/centrifugal pump1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/horizontal pump 7.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/simple pump3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/submersible sump pump.svg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backImage.html" afterPath="$PROJECT_DIR$/backImage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/mobile.html" afterPath="$PROJECT_DIR$/mobile/mobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="webDesign.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,113 +754,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphicApp/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1044">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.4444447" vertical-offset="465" max-vertical-offset="1188">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/edit.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1422">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="32" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.07448276" vertical-offset="0" max-vertical-offset="725">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backImage.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backImage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6473029" vertical-offset="0" max-vertical-offset="918">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/mobile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="936">
-              <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="draft.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/draft.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1458" max-vertical-offset="2826">
-              <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="draft2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/draft2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3230" max-vertical-offset="7182">
-              <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#ins#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#ins#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#ins#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,6 +788,8 @@
         <option value="$PROJECT_DIR$/test/edit.html" />
         <option value="$PROJECT_DIR$/mobile/mobile.html" />
         <option value="$PROJECT_DIR$/backImage.html" />
+        <option value="$PROJECT_DIR$/graphicApp/www/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -154,7 +802,7 @@
     <option name="width" value="1543" />
     <option name="height" value="904" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -206,7 +854,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
+              <option name="myItemId" value="graphicApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,7 +863,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="configurable.group.tools" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -223,12 +871,17 @@
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.backImage.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="edit.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webDesign/test/edit.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -239,17 +892,17 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="draft2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webDesign/test/draft2.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="backImage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webDesign/backImage.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="false" name="mobile.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webDesign/mobile/mobile.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webDesign/graphicApp/www/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -445,17 +1098,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.edit.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.draft.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.draft2.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.backImage.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.mobile.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.backImage.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.mobile.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.backImage.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.mobile.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.draft.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.edit.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.draft2.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.backImage.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.mobile.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.draft.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.edit.html" />
       </list>
     </recent_temporary>
   </component>
@@ -536,15 +1189,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/mobile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="936">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -715,18 +1364,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/mobile.html">
+    <entry file="file://$PROJECT_DIR$/backImage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="936">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="47" />
+        <state vertical-scroll-proportion="-14.296296" vertical-offset="244" max-vertical-offset="1188">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphicApp/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4444447" vertical-offset="465" max-vertical-offset="1188">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backImage.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6473029" vertical-offset="0" max-vertical-offset="918">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.07448276" vertical-offset="0" max-vertical-offset="725">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>

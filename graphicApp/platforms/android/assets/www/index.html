@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <title></title>
+       <script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+       <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap theme -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background:url("img/imageedit_3_7474622037.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+            @media screen and (max-width: 500px) {
+                .inputSize{
+                    font-size: inherit;
+                }
+}
+            .gwd-div-qlio {
+      position: absolute;
+      width: 59px;
+      height: 18px;
+      left: 936px;
+      top: 0px;
+    }
+.inputSize{
+    /*width: 70px;*/
+    /*height: 20px;*/
+    width: 4.5%;
+    height: 2.5%;
+    font-size: xx-small;
+}
+        .motorInput{
+            position: absolute;
+            top:0.5%;
+        }
+    </style>
+    <!--<script type="text/javascript">-->
+          <!--$(document).ready(function() {-->
+              <!--$("#fake").attr("width","20px");-->
+              <!--$("#fake").attr("height","20px");-->
+               <!--$("#fake").attr("backgroundColor","black");-->
+          <!--});-->
+    <!--</script>-->
+</head>
+<body>
+<input type="text" id="motor1" value="245' C" class="inputSize motorInput" style="left:79%;">
+<input type="text" id="motor2" value="300' C" class="inputSize motorInput" style="left:62%">
+<input type="text" id="motor3" value="0' C" class="inputSize motorInput" style="left:45%">
+<script>
+    console.log("size "+$(window).width()+" "+$(window).height());
+</script>
+</body>
+</html>

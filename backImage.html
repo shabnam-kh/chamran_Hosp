@@ -18,11 +18,11 @@
             background-size: cover;
 
         }
-            /*@media screen and (max-width: 500px) {*/
-        /*body{*/
-           /*background-size: 100% auto;*/
-        /*}*/
-/*}*/
+            @media screen and (max-width: 500px) {
+                .inputSize{
+                    font-size: inherit;
+                }
+}
             .gwd-div-qlio {
       position: absolute;
       width: 59px;
@@ -30,7 +30,17 @@
       left: 936px;
       top: 0px;
     }
-
+.inputSize{
+    /*width: 70px;*/
+    /*height: 20px;*/
+    width: 4.5%;
+    height: 2.5%;
+    font-size: xx-small;
+}
+        .motorInput{
+            position: absolute;
+            top:0.5%;
+        }
     </style>
     <!--<script type="text/javascript">-->
           <!--$(document).ready(function() {-->
@@ -41,6 +51,11 @@
     <!--</script>-->
 </head>
 <body>
-<!--<input class="col-md-5" value="tempreture"/>-->
+<input type="text" id="motor1" value="245' C" class="inputSize motorInput" style="left:79%;">
+<input type="text" id="motor2" value="300' C" class="inputSize motorInput" style="left:62%">
+<input type="text" id="motor3" value="0' C" class="inputSize motorInput" style="left:45%">
+<script>
+    console.log("size "+$(window).width()+" "+$(window).height());
+</script>
 </body>
 </html>
