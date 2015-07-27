@@ -50,6 +50,10 @@
             position: absolute;
             top:5%;
         }
+         .Mmotors{
+             position: absolute;
+            top:70%;
+         }
         input{
             background-color: gray;
             color: #ffffff;
@@ -73,9 +77,37 @@
         <input type="text" id="motor11" value="245' C" class="inputSize motorSecondInput" style="left:73.2%;">
 <input type="text" id="motor22" value="300' C" class="inputSize motorSecondInput" style="left:56%">
 <input type="text" id="motor33" value="0' C" class="inputSize motorSecondInput" style="left:40%">
+
+       <input type="text" id="Mmotors1" value="245' C" class="inputSize Mmotors" style="left:76.5%;">
+     <input type="text" id="Mmotors4" value="245' C" class="inputSize Mmotors" style="left:65.3%;">
+<input type="text" id="Mmotors2" value="300' C" class="inputSize Mmotors" style="left:53.8%">
+<input type="text" id="Mmotors3" value="0' C" class="inputSize Mmotors" style="left:42%">
+
+    <input type="text" id="single1" value="0' C" class="inputSize" style="left:25.5%;position:absolute;top:13%;">
+
+     <input type="text" id="single2" value=" RPM" class="inputSize" style="left:19.5%;position:absolute;top:29%;">
+
+      <input type="text" id="single3" value="400' C" class="inputSize" style="left:36.5%;position:absolute;top:37%;">
+
+    <input type="text" id="single4" value="400' C" class="inputSize" style="left:38.2%;position:absolute;top:55%;">
+
+        <input type="text" id="single5" value="400' C" class="inputSize" style="left:19.5%;position:absolute;top:70%;">
+
+     <input type="text" id="single6" value="400' C" class="inputSize" style="left:24%;position:absolute;top:91.5%;">
+
+    <input type="text" id="single7" value="400' C" class="inputSize" style="left:2.5%;position:absolute;top:90%;">
+
+    <input type="text" id="single8" value="400' C" class="inputSize" style="left:2.5%;position:absolute;top:78%;">
+
 </div>
 
 <script>
+    var myvar=setInterval(function(){
+        $("input").attr("backgroundColor","red");
+    },1000);
+    var myvar=setInterval(function(){
+        $("input").attr("backgroundColor","gray");
+    },2000);
     changeSize();
     console.log("size "+$(window).width()+" "+$(window).height());
 //    alert("size "+$(window).width()+" "+$(window).height());
