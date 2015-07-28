@@ -31,19 +31,21 @@
       left: 936px;
       top: 0px;
     }
-.inputSize{
+/*.inputSize{*/
     /*width: 70px;*/
     /*height: 20px;*/
-    width: 4.5%;
-    height: 2.5%;
+    /*width: 4.5%;*/
+    /*height: 2.5%;*/
+/*}*/
+.smallDevice{
+        /*width: 9%;*/
+    /*height: 3%;*/
+    /*font-size: xx-small;*/
+    font-size: 0.2cm;
 
 }
-.smallInputSize{
-        width: 9%;
-    height: 3%;
-    /*font-size: xx-small;*/
-    font-size: 40%;
-
+.XsmallDevice{
+    font-size: 0.08cm;
 }
         .motorInput{
             position: absolute;
@@ -132,14 +134,13 @@
 //    var myvar=setInterval(function(){
 //        $("input").attr("backgroundColor","gray");
 //    },2000);
-$("input").hide();
-    changeSize();
+//$("input").hide();
+    //changeSize();
 
-    var imgW=$("#backImg").width();
-    var imgH=$("#backImg").height();
 //    alert("size "+$(window).width()+" "+$(window).height());
-
+console.log("new app");
         $(document).ready(function() {
+            changeSize();
 //            $("#backImg").attr("height",$(window).height());
             setSize(function(){
                 console.log("image size "+$("#backImg").width()+" "+$("#backImg").height());
@@ -147,32 +148,39 @@ $("input").hide();
                 console.log("second size "+$("#whole").width()+" "+$("#whole").height());
                 $("input").show();
             })
-            changeSize();
+//            changeSize();
 
 
         });
 
      $(window).resize(function() {
+         //changeSize();
 //             $("#backImg").attr("height",$(window).height());
          setSize(function(){
                 console.log("image size "+$("#backImg").width()+" "+$("#backImg").height());
                 console.log("size "+$(window).width()+" "+$(window).height());
                 console.log("second size "+$("#whole").width()+" "+$("#whole").height());
          })
-         changeSize();
+//         changeSize();
         });
-    function changeClass(callback){
-        $("input").removeClass("inputSize");
-        $("label").removeClass("inputSize");
-        callback();
-    }
+//    function changeClass(callback){
+//        $("input").removeClass("inputSize");
+//        $("label").removeClass("inputSize");
+//        callback();
+//    }
         function changeSize(){
-         if($(window).width()<=500){
-                changeClass(function(){
-                    $("input").addClass("smallInputSize");
-                    $("label").addClass("smallInputSize");
-                })
+            console.log("call changesize function");
+if($(window).width()<=500){
+    console.log("change size first condition is true;");
+      $("label").addClass("XsmallDevice");
+}else if($(window).width()<=700){
+             console.log("change size second condition is true;");
+//                changeClass(function(){
+//                    $("input").addClass("smallInputSize");
+                    $("label").addClass("smallDevice");
+                //})
             }
+
     }
 function setSize(callback){
 
