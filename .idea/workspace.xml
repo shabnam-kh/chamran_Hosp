@@ -31,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphicApp/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72112674" vertical-offset="1702" max-vertical-offset="3438">
-              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="118" />
+            <state vertical-scroll-proportion="0.5154639" vertical-offset="622" max-vertical-offset="3438">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -466,7 +466,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438068897441</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change inputs to label">
+      <created>1438069792366</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1438069792366</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -516,7 +522,8 @@
     <MESSAGE value="scale inputs to mobile size" />
     <MESSAGE value="put all inputs" />
     <MESSAGE value="position inputs related to the image not the window" />
-    <option name="LAST_COMMIT_MESSAGE" value="position inputs related to the image not the window" />
+    <MESSAGE value="change inputs to label" />
+    <option name="LAST_COMMIT_MESSAGE" value="change inputs to label" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -698,8 +705,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graphicApp/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72112674" vertical-offset="1702" max-vertical-offset="3438">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="118" />
+        <state vertical-scroll-proportion="0.5154639" vertical-offset="622" max-vertical-offset="3438">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
