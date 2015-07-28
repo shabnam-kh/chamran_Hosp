@@ -36,11 +36,13 @@
     /*height: 20px;*/
     width: 4.5%;
     height: 2.5%;
+
 }
 .smallInputSize{
         width: 9%;
     height: 3%;
     font-size: xx-small;
+
 }
         .motorInput{
             position: absolute;
@@ -53,10 +55,14 @@
          .Mmotors{
              position: absolute;
             top:70%;
+
          }
         input{
             background-color: gray;
             color: #ffffff;
+        }
+        #whole{
+            position: fixed;
         }
     </style>
     <!--<script type="text/javascript">-->
@@ -102,24 +108,39 @@
 </div>
 
 <script>
-    var myvar=setInterval(function(){
-        $("input").attr("backgroundColor","red");
-    },1000);
-    var myvar=setInterval(function(){
-        $("input").attr("backgroundColor","gray");
-    },2000);
+//    var myvar=setInterval(function(){
+//        $("input").attr("backgroundColor","red");
+//    },1000);
+//    var myvar=setInterval(function(){
+//        $("input").attr("backgroundColor","gray");
+//    },2000);
+$("input").hide();
     changeSize();
-    console.log("size "+$(window).width()+" "+$(window).height());
+
+    var imgW=$("#backImg").width();
+    var imgH=$("#backImg").height();
 //    alert("size "+$(window).width()+" "+$(window).height());
 
         $(document).ready(function() {
-            $("#backImg").attr("height",$(window).height());
+//            $("#backImg").attr("height",$(window).height());
+            setSize(function(){
+                console.log("image size "+$("#backImg").width()+" "+$("#backImg").height());
+                console.log("size "+$(window).width()+" "+$(window).height());
+                console.log("second size "+$("#whole").width()+" "+$("#whole").height());
+                $("input").show();
+            })
             changeSize();
+
 
         });
 
      $(window).resize(function() {
-             $("#backImg").attr("height",$(window).height());
+//             $("#backImg").attr("height",$(window).height());
+         setSize(function(){
+                console.log("image size "+$("#backImg").width()+" "+$("#backImg").height());
+                console.log("size "+$(window).width()+" "+$(window).height());
+                console.log("second size "+$("#whole").width()+" "+$("#whole").height());
+         })
          changeSize();
         });
     function changeClass(callback){
@@ -133,7 +154,12 @@
                 })
             }
     }
+function setSize(callback){
 
+    $("#whole").width($("#backImg").width());
+    $("#whole").height($("#backImg").height());
+    callback();
+};
 
 </script>
 </body>

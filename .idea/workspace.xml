@@ -31,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphicApp/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7859155" vertical-offset="1224" max-vertical-offset="2610">
-              <caret line="99" column="110" selection-start-line="99" selection-start-column="110" selection-end-line="99" selection-end-column="110" />
+            <state vertical-scroll-proportion="0.44225353" vertical-offset="1018" max-vertical-offset="3078">
+              <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -52,6 +52,7 @@
                 <element signature="n#style#0;n#input#14;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#15;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#16;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#17;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -453,7 +454,13 @@
       <option name="project" value="LOCAL" />
       <updated>1437992175161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="put all inputs">
+      <created>1437994846502</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1437994846502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -501,7 +508,8 @@
     <MESSAGE value="add cordova project" />
     <MESSAGE value="scale image to screen" />
     <MESSAGE value="scale inputs to mobile size" />
-    <option name="LAST_COMMIT_MESSAGE" value="scale inputs to mobile size" />
+    <MESSAGE value="put all inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="put all inputs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -531,6 +539,7 @@
             <element signature="n#style#0;n#input#14;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#15;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#16;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#17;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -682,8 +691,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graphicApp/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7859155" vertical-offset="1224" max-vertical-offset="2610">
-          <caret line="99" column="110" selection-start-line="99" selection-start-column="110" selection-end-line="99" selection-end-column="110" />
+        <state vertical-scroll-proportion="0.44225353" vertical-offset="1018" max-vertical-offset="3078">
+          <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -703,6 +712,7 @@
             <element signature="n#style#0;n#input#14;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#15;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#16;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#17;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
