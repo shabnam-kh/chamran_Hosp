@@ -80,10 +80,17 @@
             /*visibility: hidden;*/
         }
         .indicatorLight{
-            background-color: red;
             width: 1%;
             height: 2%;
             border-radius: 100%;
+        }
+
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+            display: none;
         }
         .waterLevel{
                 background-color: dodgerblue;
@@ -92,18 +99,11 @@
             border-radius: 100%;
         }
     </style>
-    <!--<script type="text/javascript">-->
-          <!--$(document).ready(function() {-->
-              <!--$("#fake").attr("width","20px");-->
-              <!--$("#fake").attr("height","20px");-->
-               <!--$("#fake").attr("backgroundColor","black");-->
-          <!--});-->
-    <!--</script>-->
 </head>
 <body>
 <img  id="backImg" src='img/imageedit_3_7474622037.png' style='position:absolute; top:0px; left:0px; width:100%; max-height:100%; border:0;' >
 <div id="whole">
-    <!--id is equal to address -->
+    <!--id is equal to digital value -->
 
     <!--Steam Boilers-->
     <label id="2" value="245' C" class="inputSize motorInput steam_Boiler #3" style="left:80%;">400</label>
@@ -121,67 +121,83 @@
     <div class="waterLevel steam_Boiler" style="position: absolute;top: 16%;left: 50.5%;"></div>
     <div class="waterLevel Mfan" style="position: absolute;top: 17%;left: 39%;"></div>
 
-        <!--<input type="text" id="motor11" value="245' C" class="inputSize motorSecondInput" style="left:73.2%;">-->
+       <!--Boiler Pumps-->
     <label id="motor11" value="245' C" class="inputSize motorSecondInput" style="left:74.2%;">400</label>
-     <div class="indicatorLight" style="position: absolute;top: 24%;left: 74.5%;"></div>
-<!--<input type="text" id="motor22" value="300' C" class="inputSize motorSecondInput" style="left:56%">-->
+     <div class="indicatorLight red BPump #3" style="position: absolute;top: 24%;left: 74.5%;"></div>
+     <div class="indicatorLight green BPump #3" style="position: absolute;top: 24%;left: 74.5%;"></div>
+
     <label id="motor22" value="300' C" class="inputSize motorSecondInput" style="left:57%">400</label>
-     <div class="indicatorLight" style="position: absolute;top: 24%;left: 57.5%;"></div>
-<!--<input type="text" id="motor33" value="0' C" class="inputSize motorSecondInput" style="left:40%">-->
+     <div class="indicatorLight red BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>
+    <div class="indicatorLight green BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>
+    
     <label id="motor33" value="0' C" class="inputSize motorSecondInput" style="left:41%">400</label>
-     <div class="indicatorLight" style="position: absolute;top: 24%;left: 42.5%;"></div>
+     <div class="indicatorLight red BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>
+     <div class="indicatorLight green BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>
 
     <!--M motors-->
-       <!--<input type="text" id="Mmotors1" value="245' C" class="inputSize Mmotors" style="left:76.5%;">-->
-    <label id="10" value="245' C" class="inputSize Mmotors" style="left:77.5%;">300</label>
-     <!--<input type="text" id="Mmotors4" value="245' C" class="inputSize Mmotors" style="left:65.3%;">-->
-    <label id="9" value="245' C" class="inputSize Mmotors" style="left:66.3%;">256</label>
-<!--<input type="text" id="Mmotors2" value="300' C" class="inputSize Mmotors" style="left:53.8%">-->
-    <label id="8" value="300' C" class="inputSize Mmotors" style="left:54.8%">800</label>
-<!--<input type="text" id="Mmotors3" value="0' C" class="inputSize Mmotors" style="left:42%">-->
-    <label id="7" value="0' C" class="inputSize Mmotors" style="left:43%">900</label>
+    <!--D.H.W.T-->
+    <label id="10" value="245' C" class="inputSize Mmotors D.H.W.T #4" style="left:77.5%;">300</label>
+    <label id="9" value="245' C" class="inputSize Mmotors D.H.W.T #3" style="left:66.3%;">256</label>
+    <label id="8" value="300' C" class="inputSize Mmotors D.H.W.T #2" style="left:54.8%">800</label>
+    <label id="7" value="0' C" class="inputSize Mmotors D.H.W.T #1" style="left:43%">900</label>
 
     <!--Deaerator group-->
     <label id="13" value="0' C" class="inputSize Deaerator" style="left:26.5%;position:absolute;top:13%;">400</label>
     <div class="waterLevel Deaerator up" style="position: absolute;top: 9%;left: 31%;"></div>
     <div class="waterLevel Deaerator down" style="position: absolute;top: 16%;left: 31%;"></div>
 
-     <!--<input type="text" id="single2" value=" RPM" class="inputSize" style="left:19.5%;position:absolute;top:29%;">-->
-    <label id="single2" value=" RPM" class="inputSize" style="left:20%;position:absolute;top:29.5%;">400</label>
+     <!--fan motor-->
+    <label id="single2" value=" RPM" class="inputSize fanMotor" style="left:20%;position:absolute;top:29.5%;">400</label>
 
-      <!--<input type="text" id="single3" value="400' C" class="inputSize" style="left:36.5%;position:absolute;top:37%;">-->
-    <label id="11" value="400' C" class="inputSize" style="left:37.5%;position:absolute;top:36.5%;">400</label>
+    <!--HeatInTemp-->
+    <label id="11" value="400' C" class="inputSize HeatInTemp" style="left:37.5%;position:absolute;top:36.5%;">400</label>
+    <!--HeatOutTemp-->
+    <label id="12" value="400' C" class="inputSize HeatOutTemp" style="left:39.2%;position:absolute;top:55%;">400</label>
 
-    <!--<input type="text" id="single4" value="400' C" class="inputSize" style="left:38.2%;position:absolute;top:55%;">-->
-    <label id="12" value="400' C" class="inputSize" style="left:39.2%;position:absolute;top:55%;">400</label>
 
         <!--<input type="text" id="single5" value="400' C" class="inputSize" style="left:19.5%;position:absolute;top:70%;">-->
-    <label id="3" value="400' C" class="inputSize" style="left:20.5%;position:absolute;top:69.5%;">400</label>
+    <label id="3" value="400' C" class="inputSize CHWR" style="left:20.5%;position:absolute;top:69.5%;">400</label>
 
      <!--<input type="text" id="single6" value="400' C" class="inputSize" style="left:24%;position:absolute;top:91.5%;">-->
-    <label id="4" value="400' C" class="inputSize" style="left:25%;position:absolute;top:92%;">400</label>
+    <label id="4" value="400' C" class="inputSize CHWS" style="left:25%;position:absolute;top:92%;">400</label>
 
     <!--<input type="text" id="single7" value="400' C" class="inputSize" style="left:2.5%;position:absolute;top:90%;">-->
-    <label id="5" value="400' C" class="inputSize" style="left:3.5%;position:absolute;top:90%;">400</label>
+    <label id="5" value="400' C" class="inputSize CWS" style="left:3.5%;position:absolute;top:90%;">400</label>
     <!---->
     <!--<input type="text" id="single8" value="400' C" class="inputSize" style="left:2.5%;position:absolute;top:78%;">-->
-    <label id="6" value="400' C" class="inputSize" style="left:3.5%;position:absolute;top:77.5%;">400</label>
+    <label id="6" value="400' C" class="inputSize CWR" style="left:3.5%;position:absolute;top:77.5%;">400</label>
     
     <!--indicator lights-->
-    <div class="indicatorLight" style="position: absolute;top: 4%;left: 11%;"></div>
-    <div class="indicatorLight" style="position: absolute;top: 15%;left: 11%;"></div>
 
-        <div class="indicatorLight" style="position: absolute;top: 44%;left: 5.5%;"></div>
-    <div class="indicatorLight" style="position: absolute;top: 55%;left: 5.5%;"></div>
-        <div class="indicatorLight" style="position: absolute;top: 66%;left: 5.5%;"></div>
+    <!--CndPump-->
+    <div class="indicatorLight red CndPump #1" style="position: absolute;top: 4%;left: 11%;"></div>
+    <div class="indicatorLight green CndPump #1" style="position: absolute;top: 4%;left: 11%;"></div>
+    <div class="indicatorLight red CndPump #2" style="position: absolute;top: 15%;left: 11%;"></div>
+    <div class="indicatorLight green CndPump #2" style="position: absolute;top: 15%;left: 11%;"></div>
 
-            <div class="indicatorLight" style="position: absolute;top: 62.5%;left: 31%;"></div>
-    <div class="indicatorLight" style="position: absolute;top: 73%;left: 31%;"></div>
-        <div class="indicatorLight" style="position: absolute;top: 84%;left: 31%;"></div>
+<!--C.W.P-->
+        <div class="indicatorLight red C.W.P #1" style="position: absolute;top: 44%;left: 5.5%;"></div>
+    <div class="indicatorLight green C.W.P #1" style="position: absolute;top: 44%;left: 5.5%;"></div>
+    <div class="indicatorLight red C.W.P #2" style="position: absolute;top: 55%;left: 5.5%;"></div>
+       <div class="indicatorLight green C.W.P #2" style="position: absolute;top: 55%;left: 5.5%;"></div>
+        <div class="indicatorLight red C.W.P #3" style="position: absolute;top: 66%;left: 5.5%;"></div>
+    <div class="indicatorLight green C.W.P #3" style="position: absolute;top: 66%;left: 5.5%;"></div>
 
-               <div class="indicatorLight" style="position: absolute;top: 67%;left: 89.5%;"></div>
-    <div class="indicatorLight" style="position: absolute;top: 78%;left: 89.5%;"></div>
-        <div class="indicatorLight" style="position: absolute;top: 89%;left: 89.5%;"></div>
+    <!--CH/HWP-->
+            <div class="indicatorLight red CH/HWP #1" style="position: absolute;top: 62.5%;left: 31%;"></div>
+     <div class="indicatorLight green CH/HWP #1" style="position: absolute;top: 62.5%;left: 31%;"></div>
+    <div class="indicatorLight red CH/HWP #2" style="position: absolute;top: 73%;left: 31%;"></div>
+    <div class="indicatorLight green CH/HWP #2" style="position: absolute;top: 73%;left: 31%;"></div>
+        <div class="indicatorLight red CH/HWP #3" style="position: absolute;top: 84%;left: 31%;"></div>
+         <div class="indicatorLight green CH/HWP #3" style="position: absolute;top: 84%;left: 31%;"></div>
+
+    <!--DHWRP-->
+               <div class="indicatorLight red DHWRP #1" style="position: absolute;top: 67%;left: 89.5%;"></div>
+     <div class="indicatorLight green DHWRP #1" style="position: absolute;top: 67%;left: 89.5%;"></div>
+    <div class="indicatorLight red DHWRP #2" style="position: absolute;top: 78%;left: 89.5%;"></div>
+        <div class="indicatorLight  green DHWRP #2" style="position: absolute;top: 78%;left: 89.5%;"></div>
+        <div class="indicatorLight red DHWRP #3" style="position: absolute;top: 89%;left: 89.5%;"></div>
+    <div class="indicatorLight green DHWRP #3" style="position: absolute;top: 89%;left: 89.5%;"></div>
 </div>
 
 <script>
