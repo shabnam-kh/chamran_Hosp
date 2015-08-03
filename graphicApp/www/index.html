@@ -108,18 +108,27 @@
     <!--Steam Boilers-->
     <label id="2" value="245' C" class="inputSize motorInput steam_Boiler #3" style="left:80%;">400</label>
     <img src="img/editFlaire.png" class=flair style="left:75%;">
-    <div class="waterLevel steam_Boiler" style="position: absolute;top: 16%;left: 84.5%;"></div>
+      <div class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 84.5%;"></div>
+    <div class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 84.5%;"></div>
     <div class="waterLevel Mfan" style="position: absolute;top: 17%;left: 73%;"></div>
+         <div class="indicatorLight red Mfan #3" style="position: absolute;top: 16.5%;left: 72%;"></div>
+     <div class="indicatorLight green Mfan #3" style="position: absolute;top: 16.5%;left: 72%;"></div>
 
     <label id="1" value="300' C" class="inputSize motorInput steam_Boiler #2" style="left:63%">300</label>
-    <img src="img/editFlaire.png" class=flair style="left:58%;">
-    <div class="waterLevel steam_Boiler" style="position: absolute;top: 16%;left: 67.5%;"></div>
-    <div class="waterLevel Mfan" style="position: absolute;top: 17%;left: 56%;"></div>
+    <img src="img/editFlaire.png" class="flair id#400" style="left:58%;">
+     <div id="420" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 67.5%;"></div>
+    <div id="421" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 67.5%;"></div>
+    <div id="422" class="waterLevel Mfan" style="position: absolute;top: 17%;left: 56%;"></div>
+         <div id="418" class="indicatorLight red Mfan " style="position: absolute;top: 16.5%;left: 55%;"></div>
+     <div class="indicatorLight green Mfan id#400" style="position: absolute;top: 16.5%;left: 55%;"></div>
 
     <label id="0" value="0' C" class="inputSize motorInput steam_Boiler #1" style="left:46%">256</label>
-    <img src="img/editFlaire.png" class=flair style="left:41%;">
-    <div class="waterLevel steam_Boiler" style="position: absolute;top: 16%;left: 50.5%;"></div>
-    <div class="waterLevel Mfan" style="position: absolute;top: 17%;left: 39%;"></div>
+    <img src="img/editFlaire.png" class="flair id#407" style="left:41%;">
+    <div id="403" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 50.5%;"></div>
+    <div id="404" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 50.5%;"></div>
+    <div id="405" class="waterLevel Mfan" style="position: absolute;top: 17%;left: 39%;"></div>
+         <div id="401" class="indicatorLight red Mfan " style="position: absolute;top: 16.5%;left: 38%;"></div>
+     <div class="indicatorLight green Mfan id#407" style="position: absolute;top: 16.5%;left: 38%;"></div>
 
        <!--Boiler Pumps-->
     <label id="motor11" value="245' C" class="inputSize motorSecondInput" style="left:74.2%;">400</label>
@@ -127,77 +136,79 @@
      <div class="indicatorLight green BPump #3" style="position: absolute;top: 24%;left: 74.5%;"></div>
 
     <label id="motor22" value="300' C" class="inputSize motorSecondInput" style="left:57%">400</label>
-     <div class="indicatorLight red BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>
-    <div class="indicatorLight green BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>
+     <div id="419" class="indicatorLight red BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>
+    <div id="423" class="indicatorLight green BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>
     
     <label id="motor33" value="0' C" class="inputSize motorSecondInput" style="left:41%">400</label>
-     <div class="indicatorLight red BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>
-     <div class="indicatorLight green BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>
+     <div id="402" class="indicatorLight red BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>
+     <div id="406" class="indicatorLight green BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>
 
     <!--M motors-->
     <!--D.H.W.T-->
-    <label id="10" value="245' C" class="inputSize Mmotors D.H.W.T #4" style="left:77.5%;">300</label>
-    <label id="9" value="245' C" class="inputSize Mmotors D.H.W.T #3" style="left:66.3%;">256</label>
-    <label id="8" value="300' C" class="inputSize Mmotors D.H.W.T #2" style="left:54.8%">800</label>
-    <label id="7" value="0' C" class="inputSize Mmotors D.H.W.T #1" style="left:43%">900</label>
+    <label id="160" value="245' C" class="inputSize Mmotors D.H.W.T #4" style="left:77.5%;">300</label>
+    <label id="144" value="245' C" class="inputSize Mmotors D.H.W.T #3" style="left:66.3%;">256</label>
+    <label id="128" value="300' C" class="inputSize Mmotors D.H.W.T #2" style="left:54.8%">800</label>
+    <label id="112" value="0' C" class="inputSize Mmotors D.H.W.T #1" style="left:43%">900</label>
 
     <!--Deaerator group-->
-    <label id="13" value="0' C" class="inputSize Deaerator" style="left:26.5%;position:absolute;top:13%;">400</label>
-    <div class="waterLevel Deaerator up" style="position: absolute;top: 9%;left: 31%;"></div>
-    <div class="waterLevel Deaerator down" style="position: absolute;top: 16%;left: 31%;"></div>
+    <label id="208" value="0' C" class="inputSize Deaerator" style="left:26.5%;position:absolute;top:13%;">400</label>
+    <div id="416" class="waterLevel Deaerator up" style="position: absolute;top: 9%;left: 31%;"></div>
+    <div id="417" class="waterLevel Deaerator down" style="position: absolute;top: 16%;left: 31%;"></div>
 
      <!--fan motor-->
     <label id="single2" value=" RPM" class="inputSize fanMotor" style="left:20%;position:absolute;top:29.5%;">400</label>
+        <div id="457" class="indicatorLight red  fanMotor" style="position: absolute;top: 31.5%;left: 15.5%;"></div>
+    <div id="456" class="indicatorLight green fanMotor" style="position: absolute;top: 31.5%;left: 15.5%;"></div>
 
     <!--HeatInTemp-->
-    <label id="11" value="400' C" class="inputSize HeatInTemp" style="left:37.5%;position:absolute;top:36.5%;">400</label>
+    <label id="176" value="400' C" class="inputSize HeatInTemp" style="left:37.5%;position:absolute;top:36.5%;">400</label>
     <!--HeatOutTemp-->
-    <label id="12" value="400' C" class="inputSize HeatOutTemp" style="left:39.2%;position:absolute;top:55%;">400</label>
+    <label id="192" value="400' C" class="inputSize HeatOutTemp" style="left:39.2%;position:absolute;top:55%;">400</label>
 
 
         <!--<input type="text" id="single5" value="400' C" class="inputSize" style="left:19.5%;position:absolute;top:70%;">-->
-    <label id="3" value="400' C" class="inputSize CHWR" style="left:20.5%;position:absolute;top:69.5%;">400</label>
+    <label id="48" value="400' C" class="inputSize CHWR" style="left:20.5%;position:absolute;top:69.5%;">400</label>
 
      <!--<input type="text" id="single6" value="400' C" class="inputSize" style="left:24%;position:absolute;top:91.5%;">-->
-    <label id="4" value="400' C" class="inputSize CHWS" style="left:25%;position:absolute;top:92%;">400</label>
+    <label id="64" value="400' C" class="inputSize CHWS" style="left:25%;position:absolute;top:92%;">400</label>
 
     <!--<input type="text" id="single7" value="400' C" class="inputSize" style="left:2.5%;position:absolute;top:90%;">-->
-    <label id="5" value="400' C" class="inputSize CWS" style="left:3.5%;position:absolute;top:90%;">400</label>
+    <label id="96" value="400' C" class="inputSize CWS" style="left:3.5%;position:absolute;top:90%;">400</label>
     <!---->
     <!--<input type="text" id="single8" value="400' C" class="inputSize" style="left:2.5%;position:absolute;top:78%;">-->
-    <label id="6" value="400' C" class="inputSize CWR" style="left:3.5%;position:absolute;top:77.5%;">400</label>
+    <label id="80" value="400' C" class="inputSize CWR" style="left:3.5%;position:absolute;top:77.5%;">400</label>
     
     <!--indicator lights-->
 
     <!--CndPump-->
-    <div class="indicatorLight red CndPump #1" style="position: absolute;top: 4%;left: 11%;"></div>
-    <div class="indicatorLight green CndPump #1" style="position: absolute;top: 4%;left: 11%;"></div>
-    <div class="indicatorLight red CndPump #2" style="position: absolute;top: 15%;left: 11%;"></div>
-    <div class="indicatorLight green CndPump #2" style="position: absolute;top: 15%;left: 11%;"></div>
+    <div id="451" class="indicatorLight red CndPump #1" style="position: absolute;top: 4%;left: 11%;"></div>
+    <div id="450" class="indicatorLight green CndPump #1" style="position: absolute;top: 4%;left: 11%;"></div>
+    <div id="449" class="indicatorLight red CndPump #2" style="position: absolute;top: 15%;left: 11%;"></div>
+    <div id="448" class="indicatorLight green CndPump #2" style="position: absolute;top: 15%;left: 11%;"></div>
 
 <!--C.W.P-->
-        <div class="indicatorLight red C.W.P #1" style="position: absolute;top: 44%;left: 5.5%;"></div>
-    <div class="indicatorLight green C.W.P #1" style="position: absolute;top: 44%;left: 5.5%;"></div>
-    <div class="indicatorLight red C.W.P #2" style="position: absolute;top: 55%;left: 5.5%;"></div>
-       <div class="indicatorLight green C.W.P #2" style="position: absolute;top: 55%;left: 5.5%;"></div>
-        <div class="indicatorLight red C.W.P #3" style="position: absolute;top: 66%;left: 5.5%;"></div>
-    <div class="indicatorLight green C.W.P #3" style="position: absolute;top: 66%;left: 5.5%;"></div>
+        <div id="433" class="indicatorLight red C.W.P #1" style="position: absolute;top: 44%;left: 5.5%;"></div>
+    <div id="432" class="indicatorLight green C.W.P #1" style="position: absolute;top: 44%;left: 5.5%;"></div>
+    <div id="455" class="indicatorLight red C.W.P #2" style="position: absolute;top: 55%;left: 5.5%;"></div>
+       <div id="454" class="indicatorLight green C.W.P #2" style="position: absolute;top: 55%;left: 5.5%;"></div>
+        <div id="453" class="indicatorLight red C.W.P #3" style="position: absolute;top: 66%;left: 5.5%;"></div>
+    <div id="452" class="indicatorLight green C.W.P #3" style="position: absolute;top: 66%;left: 5.5%;"></div>
 
     <!--CH/HWP-->
-            <div class="indicatorLight red CH/HWP #1" style="position: absolute;top: 62.5%;left: 31%;"></div>
-     <div class="indicatorLight green CH/HWP #1" style="position: absolute;top: 62.5%;left: 31%;"></div>
-    <div class="indicatorLight red CH/HWP #2" style="position: absolute;top: 73%;left: 31%;"></div>
-    <div class="indicatorLight green CH/HWP #2" style="position: absolute;top: 73%;left: 31%;"></div>
-        <div class="indicatorLight red CH/HWP #3" style="position: absolute;top: 84%;left: 31%;"></div>
-         <div class="indicatorLight green CH/HWP #3" style="position: absolute;top: 84%;left: 31%;"></div>
+            <div id="439" class="indicatorLight red CH/HWP #1" style="position: absolute;top: 62.5%;left: 31%;"></div>
+     <div id="438" class="indicatorLight green CH/HWP #1" style="position: absolute;top: 62.5%;left: 31%;"></div>
+    <div id="437" class="indicatorLight red CH/HWP #2" style="position: absolute;top: 73%;left: 31%;"></div>
+    <div id="436" class="indicatorLight green CH/HWP #2" style="position: absolute;top: 73%;left: 31%;"></div>
+        <div id="435" class="indicatorLight red CH/HWP #3" style="position: absolute;top: 84%;left: 31%;"></div>
+         <div id="434" class="indicatorLight green CH/HWP #3" style="position: absolute;top: 84%;left: 31%;"></div>
 
     <!--DHWRP-->
-               <div class="indicatorLight red DHWRP #1" style="position: absolute;top: 67%;left: 89.5%;"></div>
-     <div class="indicatorLight green DHWRP #1" style="position: absolute;top: 67%;left: 89.5%;"></div>
-    <div class="indicatorLight red DHWRP #2" style="position: absolute;top: 78%;left: 89.5%;"></div>
-        <div class="indicatorLight  green DHWRP #2" style="position: absolute;top: 78%;left: 89.5%;"></div>
-        <div class="indicatorLight red DHWRP #3" style="position: absolute;top: 89%;left: 89.5%;"></div>
-    <div class="indicatorLight green DHWRP #3" style="position: absolute;top: 89%;left: 89.5%;"></div>
+               <div id="485" class="indicatorLight red DHWRP #1" style="position: absolute;top: 67%;left: 89.5%;"></div>
+     <div id="484" class="indicatorLight green DHWRP #1" style="position: absolute;top: 67%;left: 89.5%;"></div>
+    <div id="487" class="indicatorLight red DHWRP #2" style="position: absolute;top: 78%;left: 89.5%;"></div>
+        <div id="486" class="indicatorLight  green DHWRP #2" style="position: absolute;top: 78%;left: 89.5%;"></div>
+        <div id="481" class="indicatorLight red DHWRP #3" style="position: absolute;top: 89%;left: 89.5%;"></div>
+    <div id="496" class="indicatorLight green DHWRP #3" style="position: absolute;top: 89%;left: 89.5%;"></div>
 </div>
 
 <script>
