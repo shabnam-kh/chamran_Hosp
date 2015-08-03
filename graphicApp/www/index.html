@@ -85,6 +85,12 @@
             height: 2%;
             border-radius: 100%;
         }
+        .waterLevel{
+                background-color: dodgerblue;
+            width: 1.5%;
+            height: 2.5%;
+            border-radius: 100%;
+        }
     </style>
     <!--<script type="text/javascript">-->
           <!--$(document).ready(function() {-->
@@ -99,15 +105,21 @@
 <div id="whole">
     <!--id is equal to address -->
 
-    <!--<input type="text" id="motor1" value="245' C" class="inputSize motorInput" style="left:79%;">-->
-    <label id="2" value="245' C" class="inputSize motorInput" style="left:80%;">400</label>
+    <!--Steam Boilers-->
+    <label id="2" value="245' C" class="inputSize motorInput steam_Boiler #3" style="left:80%;">400</label>
     <img src="img/editFlaire.png" class=flair style="left:75%;">
-<!--<input type="text" id="motor2" value="300' C" class="inputSize motorInput" style="left:62%">-->
-    <label id="1" value="300' C" class="inputSize motorInput" style="left:63%">300</label>
+    <div class="waterLevel steam_Boiler" style="position: absolute;top: 16%;left: 84.5%;"></div>
+    <div class="waterLevel Mfan" style="position: absolute;top: 17%;left: 73%;"></div>
+
+    <label id="1" value="300' C" class="inputSize motorInput steam_Boiler #2" style="left:63%">300</label>
     <img src="img/editFlaire.png" class=flair style="left:58%;">
-<!--<input type="text" id="motor3" value="0' C" class="inputSize motorInput" style="left:45%">-->
-    <label id="0" value="0' C" class="inputSize motorInput" style="left:46%">256</label>
+    <div class="waterLevel steam_Boiler" style="position: absolute;top: 16%;left: 67.5%;"></div>
+    <div class="waterLevel Mfan" style="position: absolute;top: 17%;left: 56%;"></div>
+
+    <label id="0" value="0' C" class="inputSize motorInput steam_Boiler #1" style="left:46%">256</label>
     <img src="img/editFlaire.png" class=flair style="left:41%;">
+    <div class="waterLevel steam_Boiler" style="position: absolute;top: 16%;left: 50.5%;"></div>
+    <div class="waterLevel Mfan" style="position: absolute;top: 17%;left: 39%;"></div>
 
         <!--<input type="text" id="motor11" value="245' C" class="inputSize motorSecondInput" style="left:73.2%;">-->
     <label id="motor11" value="245' C" class="inputSize motorSecondInput" style="left:74.2%;">400</label>
@@ -129,8 +141,10 @@
 <!--<input type="text" id="Mmotors3" value="0' C" class="inputSize Mmotors" style="left:42%">-->
     <label id="7" value="0' C" class="inputSize Mmotors" style="left:43%">900</label>
 
-    <!--<input type="text" id="single1" value="0' C" class="inputSize" style="left:25.5%;position:absolute;top:13%;">-->
-    <label id="13" value="0' C" class="inputSize" style="left:26.5%;position:absolute;top:13%;">400</label>
+    <!--Deaerator group-->
+    <label id="13" value="0' C" class="inputSize Deaerator" style="left:26.5%;position:absolute;top:13%;">400</label>
+    <div class="waterLevel Deaerator up" style="position: absolute;top: 9%;left: 31%;"></div>
+    <div class="waterLevel Deaerator down" style="position: absolute;top: 16%;left: 31%;"></div>
 
      <!--<input type="text" id="single2" value=" RPM" class="inputSize" style="left:19.5%;position:absolute;top:29%;">-->
     <label id="single2" value=" RPM" class="inputSize" style="left:20%;position:absolute;top:29.5%;">400</label>
