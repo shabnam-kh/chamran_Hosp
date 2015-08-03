@@ -77,6 +77,7 @@
             top:10%;
             background-image: none;
             background-color: transparent;
+            display: none;
             /*visibility: hidden;*/
         }
         .indicatorLight{
@@ -87,6 +88,7 @@
 
         .red{
             background-color: red;
+            display: none;
         }
         .green{
             background-color: green;
@@ -97,6 +99,7 @@
             width: 1.5%;
             height: 2.5%;
             border-radius: 100%;
+            display: none;
         }
     </style>
 </head>
@@ -115,20 +118,20 @@
      <div class="indicatorLight green Mfan #3" style="position: absolute;top: 16.5%;left: 72%;"></div>
 
     <label id="1" value="300' C" class="inputSize motorInput steam_Boiler #2" style="left:63%">300</label>
-    <img src="img/editFlaire.png" class="flair id#400" style="left:58%;">
+    <img src="img/editFlaire.png" class="flair id400" style="left:58%;">
      <div id="420" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 67.5%;"></div>
     <div id="421" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 67.5%;"></div>
     <div id="422" class="waterLevel Mfan" style="position: absolute;top: 17%;left: 56%;"></div>
          <div id="418" class="indicatorLight red Mfan " style="position: absolute;top: 16.5%;left: 55%;"></div>
-     <div class="indicatorLight green Mfan id#400" style="position: absolute;top: 16.5%;left: 55%;"></div>
+     <div class="indicatorLight green Mfan id400" style="position: absolute;top: 16.5%;left: 55%;"></div>
 
     <label id="0" value="0' C" class="inputSize motorInput steam_Boiler #1" style="left:46%">256</label>
-    <img src="img/editFlaire.png" class="flair id#407" style="left:41%;">
+    <img src="img/editFlaire.png" class="flair id407" style="left:41%;">
     <div id="403" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 50.5%;"></div>
     <div id="404" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 50.5%;"></div>
     <div id="405" class="waterLevel Mfan" style="position: absolute;top: 17%;left: 39%;"></div>
          <div id="401" class="indicatorLight red Mfan " style="position: absolute;top: 16.5%;left: 38%;"></div>
-     <div class="indicatorLight green Mfan id#407" style="position: absolute;top: 16.5%;left: 38%;"></div>
+     <div class="indicatorLight green Mfan id407" style="position: absolute;top: 16.5%;left: 38%;"></div>
 
        <!--Boiler Pumps-->
     <label id="motor11" value="245' C" class="inputSize motorSecondInput" style="left:74.2%;">400</label>
@@ -156,7 +159,7 @@
     <div id="417" class="waterLevel Deaerator down" style="position: absolute;top: 16%;left: 31%;"></div>
 
      <!--fan motor-->
-    <label id="single2" value=" RPM" class="inputSize fanMotor" style="left:20%;position:absolute;top:29.5%;">400</label>
+    <label  value=" RPM" class="inputSize fanMotor" style="left:20%;position:absolute;top:29.5%;">400</label>
         <div id="457" class="indicatorLight red  fanMotor" style="position: absolute;top: 31.5%;left: 15.5%;"></div>
     <div id="456" class="indicatorLight green fanMotor" style="position: absolute;top: 31.5%;left: 15.5%;"></div>
 
