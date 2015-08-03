@@ -32,8 +32,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphicApp/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7653959" vertical-offset="1944" max-vertical-offset="4968">
-              <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+            <state vertical-scroll-proportion="2.6920822" vertical-offset="0" max-vertical-offset="4968">
+              <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -112,8 +112,8 @@
       <file leaf-file-name="loadData.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphicApp/www/js/loadData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -139,8 +139,8 @@
         <option value="$PROJECT_DIR$/graphicApp/bower.json" />
         <option value="$PROJECT_DIR$/test/testIndx.html" />
         <option value="$PROJECT_DIR$/graphicApp/www/js/function.js" />
-        <option value="$PROJECT_DIR$/graphicApp/www/js/loadData.js" />
         <option value="$PROJECT_DIR$/graphicApp/www/index.html" />
+        <option value="$PROJECT_DIR$/graphicApp/www/js/loadData.js" />
       </list>
     </option>
   </component>
@@ -627,7 +627,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438597761526</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="adapt element to server data">
+      <created>1438601227087</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1438601227087</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -690,7 +696,8 @@
     <MESSAGE value="add water level sign" />
     <MESSAGE value="add real classess" />
     <MESSAGE value="add digital numbers as id" />
-    <option name="LAST_COMMIT_MESSAGE" value="add digital numbers as id" />
+    <MESSAGE value="adapt element to server data" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapt element to server data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1361,8 +1368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graphicApp/www/js/loadData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
@@ -1371,8 +1378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graphicApp/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7653959" vertical-offset="1944" max-vertical-offset="4968">
-          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        <state vertical-scroll-proportion="2.6920822" vertical-offset="0" max-vertical-offset="4968">
+          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
