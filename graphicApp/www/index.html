@@ -91,7 +91,7 @@
             display: none;
         }
         .green{
-            background-color: green;
+            background-color: greenyellow;
             display: none;
         }
         .waterLevel{
@@ -109,15 +109,15 @@
     <!--id is equal to digital value -->
 
     <!--Steam Boilers-->
-    <label id="2" value="245' C" class="inputSize motorInput steam_Boiler #3" style="left:80%;">400</label>
-    <img src="img/editFlaire.png" class=flair style="left:75%;">
-      <div class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 84.5%;"></div>
-    <div class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 84.5%;"></div>
-    <div class="waterLevel Mfan" style="position: absolute;top: 17%;left: 73%;"></div>
-         <div class="indicatorLight red Mfan #3" style="position: absolute;top: 16.5%;left: 72%;"></div>
-     <div class="indicatorLight green Mfan #3" style="position: absolute;top: 16.5%;left: 72%;"></div>
+    <label id="32" value="245' C" class="inputSize motorInput steam_Boiler #3" style="left:80%;"></label>
+    <img src="img/editFlaire.png" class="flair id000" style="left:75%;">
+      <div id="003" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 84.5%;"></div>
+    <div id="002" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 84.5%;"></div>
+    <div id="001" class="waterLevel Mfan" style="position: absolute;top: 17%;left: 73%;"></div>
+         <div id="004" class="indicatorLight red Mfan #3" style="position: absolute;top: 16.5%;left: 72%;"></div>
+     <div class="indicatorLight green Mfan #3 id000" style="position: absolute;top: 16.5%;left: 72%;"></div>
 
-    <label id="1" value="300' C" class="inputSize motorInput steam_Boiler #2" style="left:63%">300</label>
+    <label id="16" value="300' C" class="inputSize motorInput steam_Boiler #2" style="left:63%"></label>
     <img src="img/editFlaire.png" class="flair id400" style="left:58%;">
      <div id="420" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 67.5%;"></div>
     <div id="421" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 67.5%;"></div>
@@ -125,7 +125,7 @@
          <div id="418" class="indicatorLight red Mfan " style="position: absolute;top: 16.5%;left: 55%;"></div>
      <div class="indicatorLight green Mfan id400" style="position: absolute;top: 16.5%;left: 55%;"></div>
 
-    <label id="0" value="0' C" class="inputSize motorInput steam_Boiler #1" style="left:46%">256</label>
+    <label id="0" value="0' C" class="inputSize motorInput steam_Boiler #1" style="left:46%"></label>
     <img src="img/editFlaire.png" class="flair id407" style="left:41%;">
     <div id="403" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 50.5%;"></div>
     <div id="404" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 50.5%;"></div>
@@ -134,15 +134,15 @@
      <div class="indicatorLight green Mfan id407" style="position: absolute;top: 16.5%;left: 38%;"></div>
 
        <!--Boiler Pumps-->
-    <label id="motor11" value="245' C" class="inputSize motorSecondInput" style="left:74.2%;">400</label>
-     <div class="indicatorLight red BPump #3" style="position: absolute;top: 24%;left: 74.5%;"></div>
-     <div class="indicatorLight green BPump #3" style="position: absolute;top: 24%;left: 74.5%;"></div>
+    <label id="motor11" value="245' C" class="inputSize motorSecondInput" style="left:74.2%;"></label>
+     <div id="005" class="indicatorLight red BPump #3" style="position: absolute;top: 24%;left: 74.5%;"></div>
+     <div id="006" class="indicatorLight green BPump #3" style="position: absolute;top: 24%;left: 74.5%;"></div>
 
-    <label id="motor22" value="300' C" class="inputSize motorSecondInput" style="left:57%">400</label>
+    <label id="motor22" value="300' C" class="inputSize motorSecondInput" style="left:57%"></label>
      <div id="419" class="indicatorLight red BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>
     <div id="423" class="indicatorLight green BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>
     
-    <label id="motor33" value="0' C" class="inputSize motorSecondInput" style="left:41%">400</label>
+    <label id="motor33" value="0' C" class="inputSize motorSecondInput" style="left:41%"></label>
      <div id="402" class="indicatorLight red BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>
      <div id="406" class="indicatorLight green BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>
 
@@ -154,32 +154,32 @@
     <label id="112" value="0' C" class="inputSize Mmotors D.H.W.T #1" style="left:43%">300</label>
 
     <!--Deaerator group-->
-    <label id="208" value="0' C" class="inputSize Deaerator" style="left:26.5%;position:absolute;top:13%;">400</label>
+    <label id="208" value="0' C" class="inputSize Deaerator" style="left:26.5%;position:absolute;top:13%;"></label>
     <div id="416" class="waterLevel Deaerator up" style="position: absolute;top: 9%;left: 31%;"></div>
     <div id="417" class="waterLevel Deaerator down" style="position: absolute;top: 16%;left: 31%;"></div>
 
      <!--fan motor-->
-    <label  value=" RPM" class="inputSize fanMotor" style="left:20%;position:absolute;top:29.5%;">400</label>
+    <label  id="fanMotor" value=" RPM" class="inputSize fanMotor" style="left:19.5%;position:absolute;top:29.5%;"></label>
         <div id="457" class="indicatorLight red  fanMotor" style="position: absolute;top: 31.5%;left: 15.5%;"></div>
     <div id="456" class="indicatorLight green fanMotor" style="position: absolute;top: 31.5%;left: 15.5%;"></div>
 
     <!--HeatInTemp-->
-    <label id="176" value="400' C" class="inputSize HeatInTemp" style="left:37.5%;position:absolute;top:36.5%;">400</label>
+    <label id="176" value="400' C" class="inputSize HeatInTemp" style="left:37.5%;position:absolute;top:36.5%;"></label>
     <!--HeatOutTemp-->
-    <label id="192" value="400' C" class="inputSize HeatOutTemp" style="left:39.2%;position:absolute;top:55%;">400</label>
+    <label id="192" value="400' C" class="inputSize HeatOutTemp" style="left:39.2%;position:absolute;top:55%;"></label>
 
 
         <!--<input type="text" id="single5" value="400' C" class="inputSize" style="left:19.5%;position:absolute;top:70%;">-->
-    <label id="48" value="400' C" class="inputSize CHWR" style="left:20.5%;position:absolute;top:69.5%;">400</label>
+    <label id="48" value="400' C" class="inputSize CHWR" style="left:20.5%;position:absolute;top:69.5%;"></label>
 
      <!--<input type="text" id="single6" value="400' C" class="inputSize" style="left:24%;position:absolute;top:91.5%;">-->
-    <label id="64" value="400' C" class="inputSize CHWS" style="left:25%;position:absolute;top:92%;">400</label>
+    <label id="64" value="400' C" class="inputSize CHWS" style="left:25%;position:absolute;top:92%;"></label>
 
     <!--<input type="text" id="single7" value="400' C" class="inputSize" style="left:2.5%;position:absolute;top:90%;">-->
-    <label id="96" value="400' C" class="inputSize CWS" style="left:3.5%;position:absolute;top:90%;">400</label>
+    <label id="96" value="400' C" class="inputSize CWS" style="left:3.5%;position:absolute;top:90%;"></label>
     <!---->
     <!--<input type="text" id="single8" value="400' C" class="inputSize" style="left:2.5%;position:absolute;top:78%;">-->
-    <label id="80" value="400' C" class="inputSize CWR" style="left:3.5%;position:absolute;top:77.5%;">400</label>
+    <label id="80" value="400' C" class="inputSize CWR" style="left:3.5%;position:absolute;top:77.5%;"></label>
     
     <!--indicator lights-->
 

@@ -1,10 +1,11 @@
 /**
  * Created by klappo on 7/4/15.
  */
- function sendReq(callFail,callSuccess) {
+ function sendReq(digit,callFail,callSuccess) {
          $.ajax(
              {
                  url: serverURL + "/Chamran_Hosp",
+                  data: {counter:digit},
                  success: function (data, textStatus, jqXHR) {
                      console.log("ajax req " + textStatus);
                      console.log("ajax req data " + data);
