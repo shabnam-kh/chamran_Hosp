@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=2.0, minimum-scale=1, user-scalable=yes">
     <title></title>
        <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="js/information.js"></script>
@@ -104,7 +104,7 @@
     </style>
 </head>
 <body>
-<img  id="backImg" src='img/imageedit_3_7474622037.png' style='position:absolute; top:0px; left:0px; width:100%; max-height:100%; border:0;' >
+<img  id="backImg" src='img/imageedit_3_7474622037.png' style='position:absolute; top:0px; left:0px; border:0;' >
 <div id="whole">
     <!--id is equal to digital value -->
 
@@ -220,12 +220,15 @@ console.log("new app");
         $(document).ready(function() {
             changeSize();
 //            $("#backImg").attr("height",$(window).height());
-            setSize(function(){
+            setImgSize(function(){
+                  setSize(function(){
                 console.log("image size "+$("#backImg").width()+" "+$("#backImg").height());
                 console.log("size "+$(window).width()+" "+$(window).height());
                 console.log("second size "+$("#whole").width()+" "+$("#whole").height());
                 $("input").show();
             })
+            })
+
 //            changeSize();
 
         });
@@ -233,11 +236,14 @@ console.log("new app");
      $(window).resize(function() {
          //changeSize();
 //             $("#backImg").attr("height",$(window).height());
-         setSize(function(){
+         setImgSize(function(){
+                   setSize(function(){
                 console.log("image size "+$("#backImg").width()+" "+$("#backImg").height());
                 console.log("size "+$(window).width()+" "+$(window).height());
                 console.log("second size "+$("#whole").width()+" "+$("#whole").height());
          })
+         })
+
 //         changeSize();
         });
 //    function changeClass(callback){
@@ -259,6 +265,10 @@ if($(window).width()<=500){
             }
 
     }
+function setImgSize(callback){
+
+    $("#backImg").width($(window).width());
+}
 function setSize(callback){
 
     $("#whole").width($("#backImg").width());
