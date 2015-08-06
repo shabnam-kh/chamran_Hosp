@@ -2,9 +2,11 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=2.0, minimum-scale=1, user-scalable=yes">
+        <!--<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=2.0, minimum-scale=1, user-scalable=yes">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title></title>
        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/iscroll/build/iscroll-zoom.js"></script>
     <script src="js/information.js"></script>
     <script src="js/function.js"></script>
     <script src="js/loadData.js"></script>
@@ -14,9 +16,36 @@
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
         <!-- Bootstrap theme -->
     <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+<script type="text/javascript">
 
+var myScroll;
+
+function loaded () {
+	myScroll = new IScroll('#wrapper', {
+		zoom: true,
+		scrollX: true,
+		scrollY: true,
+		mouseWheel: true,
+		wheelAction: 'zoom'
+	});
+}
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+</script>
     <style>
-        /*body{*/
+        * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-ms-touch-action: none;
+}
+
+        body{
+            /*overflow: hidden; *//* this is important to prevent the whole page to bounce */
             /*background:url("img/imageedit_3_7474622037.png");*/
             /*background-repeat: no-repeat;*/
             /*-webkit-background-size: cover;*/
@@ -24,7 +53,7 @@
             /*-o-background-size: cover;*/
             /*background-size: cover;*/
 
-        /*}*/
+        }
             @media screen and (max-width: 500px) {
 
 }
@@ -101,15 +130,53 @@
             border-radius: 100%;
             display: none;
         }
+        .zoomFont{
+            font-size: 70%;
+        }
+        label{
+            font-size: 70%;
+        }
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #ccc;
+	/*overflow: hidden;*/
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	/*-webkit-transform: translateZ(0);*/
+	/*-moz-transform: translateZ(0);*/
+	/*-ms-transform: translateZ(0);*/
+	/*-o-transform: translateZ(0);*/
+	/*transform: translateZ(0);*/
+	/*-webkit-touch-callout: none;*/
+	/*-webkit-user-select: none;*/
+	/*-moz-user-select: none;*/
+	/*-ms-user-select: none;*/
+	/*user-select: none;*/
+	/*-webkit-text-size-adjust: none;*/
+	/*-moz-text-size-adjust: none;*/
+	/*-ms-text-size-adjust: none;*/
+	/*-o-text-size-adjust: none;*/
+	/*text-size-adjust: none;*/
+}
     </style>
 </head>
-<body>
-<img  id="backImg" src='img/imageedit_3_7474622037.png' style='position:absolute; top:0px; left:0px; border:0;' >
-<div id="whole">
-    <!--id is equal to digital value -->
+<body  onload="loaded()">
+<div id="wrapper">
+<!--&lt;!&ndash;<iframe id="frame" style="width: 250px;display: none" ></iframe>&ndash;&gt;-->
+    	<div id="scroller">
+             <!--<div style="position:absolute;z-index: 2;top:0px; left:0px"><h1>hello</h1></div>-->
+              <!--id is equal to digital value -->
 
     <!--Steam Boilers-->
-    <label id="32" value="245' C" class="inputSize motorInput steam_Boiler #3" style="left:80%;"></label>
+    <label id="32" value="245' C" class="inputSize motorInput steam_Boiler #3" style="left:80%;">100</label>
     <img src="img/editFlaire.png" class="flair id000" style="left:75%;">
       <div id="003" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 84.5%;"></div>
     <div id="002" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 84.5%;"></div>
@@ -117,7 +184,7 @@
          <div id="004" class="indicatorLight red Mfan #3" style="position: absolute;top: 16.5%;left: 72%;"></div>
      <div class="indicatorLight green Mfan #3 id000" style="position: absolute;top: 16.5%;left: 72%;"></div>
 
-    <label id="16" value="300' C" class="inputSize motorInput steam_Boiler #2" style="left:63%"></label>
+    <label id="16" value="300' C" class="inputSize motorInput steam_Boiler #2" style="left:63%">120</label>
     <img src="img/editFlaire.png" class="flair id400" style="left:58%;">
      <div id="420" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 67.5%;"></div>
     <div id="421" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 67.5%;"></div>
@@ -125,7 +192,7 @@
          <div id="418" class="indicatorLight red Mfan " style="position: absolute;top: 16.5%;left: 55%;"></div>
      <div class="indicatorLight green Mfan id400" style="position: absolute;top: 16.5%;left: 55%;"></div>
 
-    <label id="0" value="0' C" class="inputSize motorInput steam_Boiler #1" style="left:46%"></label>
+    <label id="0" value="0' C" class="inputSize motorInput steam_Boiler #1" style="left:46%">105</label>
     <img src="img/editFlaire.png" class="flair id407" style="left:41%;">
     <div id="403" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 50.5%;"></div>
     <div id="404" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 50.5%;"></div>
@@ -141,7 +208,7 @@
     <label id="motor22" value="300' C" class="inputSize motorSecondInput" style="left:57%"></label>
      <div id="419" class="indicatorLight red BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>
     <div id="423" class="indicatorLight green BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>
-    
+
     <label id="motor33" value="0' C" class="inputSize motorSecondInput" style="left:41%"></label>
      <div id="402" class="indicatorLight red BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>
      <div id="406" class="indicatorLight green BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>
@@ -180,7 +247,7 @@
     <!---->
     <!--<input type="text" id="single8" value="400' C" class="inputSize" style="left:2.5%;position:absolute;top:78%;">-->
     <label id="80" value="400' C" class="inputSize CWR" style="left:3.5%;position:absolute;top:77.5%;"></label>
-    
+
     <!--indicator lights-->
 
     <!--CndPump-->
@@ -212,21 +279,170 @@
         <div id="486" class="indicatorLight  green DHWRP #2" style="position: absolute;top: 78%;left: 89.5%;"></div>
         <div id="481" class="indicatorLight red DHWRP #3" style="position: absolute;top: 89%;left: 89.5%;"></div>
     <div id="496" class="indicatorLight green DHWRP #3" style="position: absolute;top: 89%;left: 89.5%;"></div>
-</div>
+            <!--<label id="32" value="245' C" class="inputSize motorInput steam_Boiler #3" style="left:80%;">100</label>-->
+<!--&lt;!&ndash;<img  id="zoombackImg"  class="backImage" src='img/imageedit_3_7474622037.png' style='display:none;position:absolute; top:0px; left:0px;border:0;' >&ndash;&gt;-->
+<img id="backImg" src='img/imageedit_3_7474622037.png' style='width:100%; max-height:100%; border:0;'>
 
+<!--<div id="whole">-->
+    <!--&lt;!&ndash;id is equal to digital value &ndash;&gt;-->
+
+    <!--&lt;!&ndash;Steam Boilers&ndash;&gt;-->
+    <!--<label id="32" value="245' C" class="inputSize motorInput steam_Boiler #3" style="left:80%;">100</label>-->
+    <!--<img src="img/editFlaire.png" class="flair id000" style="left:75%;">-->
+      <!--<div id="003" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 84.5%;"></div>-->
+    <!--<div id="002" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 84.5%;"></div>-->
+    <!--<div id="001" class="waterLevel Mfan" style="position: absolute;top: 17%;left: 73%;"></div>-->
+         <!--<div id="004" class="indicatorLight red Mfan #3" style="position: absolute;top: 16.5%;left: 72%;"></div>-->
+     <!--<div class="indicatorLight green Mfan #3 id000" style="position: absolute;top: 16.5%;left: 72%;"></div>-->
+
+    <!--<label id="16" value="300' C" class="inputSize motorInput steam_Boiler #2" style="left:63%">120</label>-->
+    <!--<img src="img/editFlaire.png" class="flair id400" style="left:58%;">-->
+     <!--<div id="420" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 67.5%;"></div>-->
+    <!--<div id="421" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 67.5%;"></div>-->
+    <!--<div id="422" class="waterLevel Mfan" style="position: absolute;top: 17%;left: 56%;"></div>-->
+         <!--<div id="418" class="indicatorLight red Mfan " style="position: absolute;top: 16.5%;left: 55%;"></div>-->
+     <!--<div class="indicatorLight green Mfan id400" style="position: absolute;top: 16.5%;left: 55%;"></div>-->
+
+    <!--<label id="0" value="0' C" class="inputSize motorInput steam_Boiler #1" style="left:46%">105</label>-->
+    <!--<img src="img/editFlaire.png" class="flair id407" style="left:41%;">-->
+    <!--<div id="403" class="waterLevel steam_Boiler top" style="position: absolute;top: 10%;left: 50.5%;"></div>-->
+    <!--<div id="404" class="waterLevel steam_Boiler down" style="position: absolute;top: 16%;left: 50.5%;"></div>-->
+    <!--<div id="405" class="waterLevel Mfan" style="position: absolute;top: 17%;left: 39%;"></div>-->
+         <!--<div id="401" class="indicatorLight red Mfan " style="position: absolute;top: 16.5%;left: 38%;"></div>-->
+     <!--<div class="indicatorLight green Mfan id407" style="position: absolute;top: 16.5%;left: 38%;"></div>-->
+
+       <!--&lt;!&ndash;Boiler Pumps&ndash;&gt;-->
+    <!--<label id="motor11" value="245' C" class="inputSize motorSecondInput" style="left:74.2%;"></label>-->
+     <!--<div id="005" class="indicatorLight red BPump #3" style="position: absolute;top: 24%;left: 74.5%;"></div>-->
+     <!--<div id="006" class="indicatorLight green BPump #3" style="position: absolute;top: 24%;left: 74.5%;"></div>-->
+
+    <!--<label id="motor22" value="300' C" class="inputSize motorSecondInput" style="left:57%"></label>-->
+     <!--<div id="419" class="indicatorLight red BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>-->
+    <!--<div id="423" class="indicatorLight green BPump #2" style="position: absolute;top: 24%;left: 57.5%;"></div>-->
+
+    <!--<label id="motor33" value="0' C" class="inputSize motorSecondInput" style="left:41%"></label>-->
+     <!--<div id="402" class="indicatorLight red BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>-->
+     <!--<div id="406" class="indicatorLight green BPump #1" style="position: absolute;top: 24%;left: 42.5%;"></div>-->
+
+    <!--&lt;!&ndash;M motors&ndash;&gt;-->
+    <!--&lt;!&ndash;D.H.W.T&ndash;&gt;-->
+    <!--<label id="160" value="245' C" class="inputSize Mmotors D.H.W.T #4" style="left:77.5%;"></label>-->
+    <!--<label id="144" value="245' C" class="inputSize Mmotors D.H.W.T #3" style="left:66.3%;"></label>-->
+    <!--<label id="128" value="300' C" class="inputSize Mmotors D.H.W.T #2" style="left:54.8%"></label>-->
+    <!--<label id="112" value="0' C" class="inputSize Mmotors D.H.W.T #1" style="left:43%">300</label>-->
+
+    <!--&lt;!&ndash;Deaerator group&ndash;&gt;-->
+    <!--<label id="208" value="0' C" class="inputSize Deaerator" style="left:26.5%;position:absolute;top:13%;"></label>-->
+    <!--<div id="416" class="waterLevel Deaerator up" style="position: absolute;top: 9%;left: 31%;"></div>-->
+    <!--<div id="417" class="waterLevel Deaerator down" style="position: absolute;top: 16%;left: 31%;"></div>-->
+
+     <!--&lt;!&ndash;fan motor&ndash;&gt;-->
+    <!--<label  id="fanMotor" value=" RPM" class="inputSize fanMotor" style="left:19.5%;position:absolute;top:29.5%;"></label>-->
+        <!--<div id="457" class="indicatorLight red  fanMotor" style="position: absolute;top: 31.5%;left: 15.5%;"></div>-->
+    <!--<div id="456" class="indicatorLight green fanMotor" style="position: absolute;top: 31.5%;left: 15.5%;"></div>-->
+
+    <!--&lt;!&ndash;HeatInTemp&ndash;&gt;-->
+    <!--<label id="176" value="400' C" class="inputSize HeatInTemp" style="left:37.5%;position:absolute;top:36.5%;"></label>-->
+    <!--&lt;!&ndash;HeatOutTemp&ndash;&gt;-->
+    <!--<label id="192" value="400' C" class="inputSize HeatOutTemp" style="left:39.2%;position:absolute;top:55%;"></label>-->
+
+
+        <!--&lt;!&ndash;<input type="text" id="single5" value="400' C" class="inputSize" style="left:19.5%;position:absolute;top:70%;">&ndash;&gt;-->
+    <!--<label id="48" value="400' C" class="inputSize CHWR" style="left:20.5%;position:absolute;top:69.5%;"></label>-->
+
+     <!--&lt;!&ndash;<input type="text" id="single6" value="400' C" class="inputSize" style="left:24%;position:absolute;top:91.5%;">&ndash;&gt;-->
+    <!--<label id="64" value="400' C" class="inputSize CHWS" style="left:25%;position:absolute;top:92%;"></label>-->
+
+    <!--&lt;!&ndash;<input type="text" id="single7" value="400' C" class="inputSize" style="left:2.5%;position:absolute;top:90%;">&ndash;&gt;-->
+    <!--<label id="96" value="400' C" class="inputSize CWS" style="left:3.5%;position:absolute;top:90%;"></label>-->
+    <!--&lt;!&ndash;&ndash;&gt;-->
+    <!--&lt;!&ndash;<input type="text" id="single8" value="400' C" class="inputSize" style="left:2.5%;position:absolute;top:78%;">&ndash;&gt;-->
+    <!--<label id="80" value="400' C" class="inputSize CWR" style="left:3.5%;position:absolute;top:77.5%;"></label>-->
+
+    <!--&lt;!&ndash;indicator lights&ndash;&gt;-->
+
+    <!--&lt;!&ndash;CndPump&ndash;&gt;-->
+    <!--<div id="451" class="indicatorLight red CndPump #1" style="position: absolute;top: 4%;left: 11%;"></div>-->
+    <!--<div id="450" class="indicatorLight green CndPump #1" style="position: absolute;top: 4%;left: 11%;"></div>-->
+    <!--<div id="449" class="indicatorLight red CndPump #2" style="position: absolute;top: 15%;left: 11%;"></div>-->
+    <!--<div id="448" class="indicatorLight green CndPump #2" style="position: absolute;top: 15%;left: 11%;"></div>-->
+
+<!--&lt;!&ndash;C.W.P&ndash;&gt;-->
+        <!--<div id="433" class="indicatorLight red C.W.P #1" style="position: absolute;top: 44%;left: 5.5%;"></div>-->
+    <!--<div id="432" class="indicatorLight green C.W.P #1" style="position: absolute;top: 44%;left: 5.5%;"></div>-->
+    <!--<div id="455" class="indicatorLight red C.W.P #2" style="position: absolute;top: 55%;left: 5.5%;"></div>-->
+       <!--<div id="454" class="indicatorLight green C.W.P #2" style="position: absolute;top: 55%;left: 5.5%;"></div>-->
+        <!--<div id="453" class="indicatorLight red C.W.P #3" style="position: absolute;top: 66%;left: 5.5%;"></div>-->
+    <!--<div id="452" class="indicatorLight green C.W.P #3" style="position: absolute;top: 66%;left: 5.5%;"></div>-->
+
+    <!--&lt;!&ndash;CH/HWP&ndash;&gt;-->
+            <!--<div id="439" class="indicatorLight red CH/HWP #1" style="position: absolute;top: 62.5%;left: 31%;"></div>-->
+     <!--<div id="438" class="indicatorLight green CH/HWP #1" style="position: absolute;top: 62.5%;left: 31%;"></div>-->
+    <!--<div id="437" class="indicatorLight red CH/HWP #2" style="position: absolute;top: 73%;left: 31%;"></div>-->
+    <!--<div id="436" class="indicatorLight green CH/HWP #2" style="position: absolute;top: 73%;left: 31%;"></div>-->
+        <!--<div id="435" class="indicatorLight red CH/HWP #3" style="position: absolute;top: 84%;left: 31%;"></div>-->
+         <!--<div id="434" class="indicatorLight green CH/HWP #3" style="position: absolute;top: 84%;left: 31%;"></div>-->
+
+    <!--&lt;!&ndash;DHWRP&ndash;&gt;-->
+               <!--<div id="485" class="indicatorLight red DHWRP #1" style="position: absolute;top: 67%;left: 89.5%;"></div>-->
+     <!--<div id="484" class="indicatorLight green DHWRP #1" style="position: absolute;top: 67%;left: 89.5%;"></div>-->
+    <!--<div id="487" class="indicatorLight red DHWRP #2" style="position: absolute;top: 78%;left: 89.5%;"></div>-->
+        <!--<div id="486" class="indicatorLight  green DHWRP #2" style="position: absolute;top: 78%;left: 89.5%;"></div>-->
+        <!--<div id="481" class="indicatorLight red DHWRP #3" style="position: absolute;top: 89%;left: 89.5%;"></div>-->
+    <!--<div id="496" class="indicatorLight green DHWRP #3" style="position: absolute;top: 89%;left: 89.5%;"></div>-->
+<!--</div>-->
+    </div>
+    </div>
 <script>
+//            var initZoom=window.devicePixelRatio;
+//            console.log("init zoom "+initZoom);
+//            var elFrame = $('#frame')[0];
+//            $(elFrame.contentWindow).resize(function() {
+//                $(window).trigger('zoom');
+//            });
+//            $(window).on('zoom', function() {
+//                var zoom_rate=window.devicePixelRatio;
+//                console.log('zoom', zoom_rate);
+//                if(zoom_rate!=2.5){
+//                       makeInviisible("backImg",function(){
+//                            makeViisible("zoombackImg",function(){
+//                                            zoomSize(function(){
+//                               //zoomChangeSize();
+//                                               // $("label").addClass("zoomFont");
+//                           });
+//                            })
+//
+//                })
+//                }
+//                   if(zoom_rate==initZoom){
+//                       console.log("return to init zoom value");
+//                       makeInviisible("zoombackImg",function(){
+//                            makeViisible("backImg",function(){
+//                                            setSize(function(){
+//                               //zoomChangeSize();
+//                                                 //$("label").addClass("zoomFont");
+//                           });
+//                            })
+//
+//                })
+//                }
+//
+//            });
+//        var zooming=setInterval(function(){
+//            console.log("zoom "+$(window).innerWidth());
+//        },1000)
 
-console.log("new app");
         $(document).ready(function() {
-            changeSize();
+
 //            $("#backImg").attr("height",$(window).height());
             setImgSize(function(){
-                  setSize(function(){
-                console.log("image size "+$("#backImg").width()+" "+$("#backImg").height());
-                console.log("size "+$(window).width()+" "+$(window).height());
-                console.log("second size "+$("#whole").width()+" "+$("#whole").height());
-                $("input").show();
-            })
+                changeSize();
+//                  setSize(function(){
+//                console.log("image size "+$("#backImg").width()+" "+$("#backImg").height());
+//                console.log("size "+$(window).width()+" "+$(window).height());
+//                console.log("second size "+$("#whole").width()+" "+$("#whole").height());
+//                $("input").show();
+//            })
             })
 
 //            changeSize();
@@ -237,11 +453,11 @@ console.log("new app");
          //changeSize();
 //             $("#backImg").attr("height",$(window).height());
          setImgSize(function(){
-                   setSize(function(){
-                console.log("image size "+$("#backImg").width()+" "+$("#backImg").height());
-                console.log("size "+$(window).width()+" "+$(window).height());
-                console.log("second size "+$("#whole").width()+" "+$("#whole").height());
-         })
+//                   setSize(function(){
+//                console.log("image size "+$("#backImg").width()+" "+$("#backImg").height());
+//                console.log("size "+$(window).width()+" "+$(window).height());
+//                console.log("second size "+$("#whole").width()+" "+$("#whole").height());
+//         })
          })
 
 //         changeSize();
@@ -252,7 +468,7 @@ console.log("new app");
 //        callback();
 //    }
         function changeSize(){
-            console.log("call changesize function");
+            console.log("changesize function");
 if($(window).width()<=500){
     console.log("change size first condition is true;");
       $("label").addClass("XsmallDevice");
@@ -265,14 +481,45 @@ if($(window).width()<=500){
             }
 
     }
-function setImgSize(callback){
+                    function zoomChangeSize(){
+            console.log("changesize function");
+if($(window).innerWidth()<=500){
+    console.log("change size first condition is true;");
+      $("label").addClass("XsmallDevice");
+}else if($(window).innerWidth()<=700){
+             console.log("change size second condition is true;");
+//                changeClass(function(){
+//                    $("input").addClass("smallInputSize");
+                    $("label").addClass("smallDevice");
+                //})
+            }
 
-    $("#backImg").width($(window).width());
+    }
+            function makeInviisible(id,callback){
+                console.log("hide old image");
+                $("#"+id).hide();
+                callback();
+            }
+                function makeViisible(id,callback){
+  console.log("load new image");
+                    $("#"+id).show();
+                callback();
+            }
+function setImgSize(callback){
+    console.log("setImgSize function");
+//    $("#backImg").width($(window).width());
+    callback();
 }
 function setSize(callback){
-
+    console.log("setSize function");
     $("#whole").width($("#backImg").width());
     $("#whole").height($("#backImg").height());
+    callback();
+};
+    function zoomSize(callback){
+    console.log("setSize function");
+    $("#whole").width($("#zoombackImg").width());
+    $("#whole").height($("#zoombackImg").height());
     callback();
 };
 
