@@ -6,7 +6,7 @@
     <title></title>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/iscroll/build/iscroll-zoom.js"></script>
-    <!--<script src="js/information.js"></script>-->
+    <script src="js/information.js"></script>
     <script src="js/function.js"></script>
     <script src="js/loadData.js"></script>
 
